@@ -1,9 +1,5 @@
 // ignore_for_file: constant_identifier_names
 
-// This library uses SharedPreferences
-// which allows saving the username and password in the local mobile storage securely and encrypted
-// NOTE: I can use the sqflite but this encrypted and more secure
-
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 const String USER_TOKEN = "USER_TOKEN";
